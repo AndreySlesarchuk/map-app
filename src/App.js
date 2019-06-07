@@ -36,7 +36,7 @@ class App extends Component {
                 <Marker position={this.state.Pinsk} icon={myIcon}>
                     <Popup className="popup">
                         <img src='https://my-calend.ru/data/source/pinsk-gerb.png' />
-                        Пинск - столица Полесья. <br/> Хоккейный клуб - Пинские ястребы.
+                        Пинск<br/> Хоккейный клуб - Пинские ястребы.
                     </Popup>
                 </Marker>
             </Map>
