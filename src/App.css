@@ -32,6 +32,9 @@
   }
 }
 
-.map . Map .map-container {
+.map {
   height: 1000px;
+}
+.marker {
+  z-index: 100;
 }
