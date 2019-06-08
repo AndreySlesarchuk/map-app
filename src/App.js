@@ -20,6 +20,7 @@ class App extends Component {
         Brest: [52.09755, 23.68775],
         Gomel: [52.43450, 30.97540],
         Grodno: [53.68840, 23.82580],
+        Vitebsk: [55.19040, 30.20490],
     }
     render() {
         const position = [this.state.lat, this.state.lng];
@@ -60,7 +61,15 @@ class App extends Component {
                         Гродно<br/> Хоккейный клуб - Неман.
                     </Popup>
                 </Marker>
+                <Marker position={this.state.Vitebsk} icon={myIcon}>
+                    <Popup className="popup">
+                        <img src='http://www.goldenkorona.ru/pic_belarusia/vitebskaya%20oblast_1.gif' />
+                        Витебск<br/> Хоккейный клуб - Витебск.
+                    </Popup>
+                </Marker>
+
             </Map>
+
         );
     }
 }
