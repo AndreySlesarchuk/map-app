@@ -41,37 +41,37 @@ class App extends Component {
                 <Marker position={this.state.Pinsk} icon={myIcon}>
                     <Popup className="popup">
                         <img src='https://my-calend.ru/data/source/pinsk-gerb.png' />
-                        Пинск<br/> Хоккейный клуб - Пинские ястребы.
+                        Пинск<br/> Хоккейный клуб - Пинские ястребы
                     </Popup>
                 </Marker>
                 <Marker position={this.state.Brest} icon={myIcon}>
                     <Popup className="popup">
                         <img src='http://www.hrono.ru/heraldicum/belarus/subjects/towns/images/brest.gif' />
-                        Брест<br/> Хоккейный клуб - Брест.
+                        Брест<br/> Хоккейный клуб - Брест
                     </Popup>
                 </Marker>
                 <Marker position={this.state.Gomel} icon={myIcon}>
                     <Popup className="popup">
                         <img src='https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.fotovarka.ru%2Fwp-content%2Fuploads%2F2016%2F07%2F1-1.jpg&f=1' />
-                        Гомель<br/> Хоккейный клуб - Гомель.
+                        Гомель<br/> Хоккейный клуб - Гомель
                     </Popup>
                 </Marker>
                 <Marker position={this.state.Grodno} icon={myIcon}>
                     <Popup className="popup">
                         <img src='https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.fotovarka.ru%2Fwp-content%2Fuploads%2F2016%2F07%2F1-1.jpg&f=1' />
-                        Гродно<br/> Хоккейный клуб - Неман.
+                        Гродно<br/> Хоккейный клуб - Неман
                     </Popup>
                 </Marker>
                 <Marker position={this.state.Vitebsk} icon={myIcon}>
                     <Popup className="popup">
                         <img src='http://www.goldenkorona.ru/pic_belarusia/vitebskaya%20oblast_1.gif' />
-                        Витебск<br/> Хоккейный клуб - Витебск.
+                        Витебск<br/> Хоккейный клуб - Витебск
                     </Popup>
                 </Marker>
                 <Marker position={this.state.Mogilev} icon={myIcon}>
                     <Popup className="popup">
                         <img src='http://maika.by/image/cache/data/Ilya%20makety/gerb%20mogileva/3-500x500.jpg' />
-                        Могилев<br/> Хоккейный клуб - Могилев.
+                        Могилев<br/> Хоккейный клуб - Могилев
                     </Popup>
                 </Marker>
 
