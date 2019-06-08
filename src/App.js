@@ -21,6 +21,7 @@ class App extends Component {
         Gomel: [52.43450, 30.97540],
         Grodno: [53.68840, 23.82580],
         Vitebsk: [55.19040, 30.20490],
+        Mogilev: [53.91680, 30.34490],
     }
     render() {
         const position = [this.state.lat, this.state.lng];
@@ -65,6 +66,12 @@ class App extends Component {
                     <Popup className="popup">
                         <img src='http://www.goldenkorona.ru/pic_belarusia/vitebskaya%20oblast_1.gif' />
                         Витебск<br/> Хоккейный клуб - Витебск.
+                    </Popup>
+                </Marker>
+                <Marker position={this.state.Mogilev} icon={myIcon}>
+                    <Popup className="popup">
+                        <img src='http://maika.by/image/cache/data/Ilya%20makety/gerb%20mogileva/3-500x500.jpg' />
+                        Могилев<br/> Хоккейный клуб - Могилев.
                     </Popup>
                 </Marker>
 
