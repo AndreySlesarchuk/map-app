@@ -18,6 +18,7 @@ class App extends Component {
         zoom: 7,
         Pinsk: [52.12290, 26.095510],
         Brest: [52.09755, 23.68775],
+        Gomel: [52.43450, 30.97540],
     }
     render() {
         const position = [this.state.lat, this.state.lng];
@@ -44,6 +45,12 @@ class App extends Component {
                     <Popup className="popup">
                         <img src='http://www.hrono.ru/heraldicum/belarus/subjects/towns/images/brest.gif' />
                         Брест<br/> Хоккейный клуб - Брест.
+                    </Popup>
+                </Marker>
+                <Marker position={this.state.Gomel} icon={myIcon}>
+                    <Popup className="popup">
+                        <img src='https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.fotovarka.ru%2Fwp-content%2Fuploads%2F2016%2F07%2F1-1.jpg&f=1' />
+                        Гомель<br/> Хоккейный клуб - Гомель.
                     </Popup>
                 </Marker>
             </Map>
