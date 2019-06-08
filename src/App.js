@@ -17,6 +17,7 @@ class App extends Component {
         lng: 27.56667,
         zoom: 7,
         Pinsk: [52.12290, 26.095510],
+        Brest: [52.09755, 23.68775],
     }
     render() {
         const position = [this.state.lat, this.state.lng];
@@ -37,6 +38,12 @@ class App extends Component {
                     <Popup className="popup">
                         <img src='https://my-calend.ru/data/source/pinsk-gerb.png' />
                         Пинск<br/> Хоккейный клуб - Пинские ястребы.
+                    </Popup>
+                </Marker>
+                <Marker position={this.state.Brest} icon={myIcon}>
+                    <Popup className="popup">
+                        <img src='http://www.hrono.ru/heraldicum/belarus/subjects/towns/images/brest.gif' />
+                        Брест<br/> Хоккейный клуб - Брест.
                     </Popup>
                 </Marker>
             </Map>
