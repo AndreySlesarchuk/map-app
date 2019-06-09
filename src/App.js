@@ -18,11 +18,13 @@ class App extends Component {
         zoom: 7,
         Pinsk: [52.12290, 26.095510],
         Brest: [52.09755, 23.68775],
+        Bereza: [52.53140, 24.97860],
         Luninets: [52.24720, 26.80470],
         Gomel: [52.43450, 30.97540],
         Grodno: [53.68840, 23.82580],
         Vitebsk: [55.19040, 30.20490],
         Mogilev: [53.91680, 30.34490],
+
 
     }
     render() {
@@ -80,6 +82,12 @@ class App extends Component {
                     <Popup className="popup">
                         <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Coat_of_Arms_of_%C5%81uniniec%2C_Belarus.svg/800px-Coat_of_Arms_of_%C5%81uniniec%2C_Belarus.svg.png' />
                         Лунинец<br/> Хоккейный клуб - Лунинец
+                    </Popup>
+                </Marker>
+                <Marker position={this.state.Bereza} icon={myIcon}>
+                    <Popup className="popup">
+                        <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Coat_of_Arms_of_Biaroza%2C_Belarus.svg/800px-Coat_of_Arms_of_Biaroza%2C_Belarus.svg.png' />
+                        Береза<br/> Хоккейный клуб - Береза
                     </Popup>
                 </Marker>
 
