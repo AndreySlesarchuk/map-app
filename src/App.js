@@ -18,6 +18,7 @@ class App extends Component {
         zoom: 7,
         Pinsk: [52.12290, 26.095510],
         Brest: [52.09755, 23.68775],
+        Baranovichi: [53.13270, 26.01390],
         Bereza: [52.53140, 24.97860],
         Kobrin: [52.21380, 24.35640],
         Pryzany: [52.55600, 24.45730],
@@ -104,7 +105,12 @@ class App extends Component {
                         Пружаны<br/> Хоккейный клуб - Пружаны
                     </Popup>
                 </Marker>
-
+                <Marker position={this.state.Baranovichi} icon={myIcon}>
+                    <Popup className="popup">
+                        <img src='https://www.calend.ru/img/gerb/i0/397.jpg' />
+                        Барановичи<br/> Хоккейный клуб - Барановичи
+                    </Popup>
+                </Marker>
             </Map>
 
         );
