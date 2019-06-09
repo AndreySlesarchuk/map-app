@@ -20,6 +20,7 @@ class App extends Component {
         Brest: [52.09755, 23.68775],
         Bereza: [52.53140, 24.97860],
         Kobrin: [52.21380, 24.35640],
+        Pryzany: [52.55600, 24.45730],
         Luninets: [52.24720, 26.80470],
         Gomel: [52.43450, 30.97540],
         Grodno: [53.68840, 23.82580],
@@ -95,6 +96,12 @@ class App extends Component {
                     <Popup className="popup">
                         <img src='https://upload.wikimedia.org/wikipedia/commons/6/6f/Coat_of_Arms_of_Kobryn%2C_Belarus.png' />
                         Кобрин<br/> Хоккейный клуб - Кобрин
+                    </Popup>
+                </Marker>
+                <Marker position={this.state.Pryzany} icon={myIcon}>
+                    <Popup className="popup">
+                        <img src='http://geraldika.by/wp-content/gallery/simvolika-brestskoj-oblasti/pruzhany_geraldika-by.gif' />
+                        Пружаны<br/> Хоккейный клуб - Пружаны
                     </Popup>
                 </Marker>
 
