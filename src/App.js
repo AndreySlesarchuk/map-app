@@ -19,6 +19,7 @@ class App extends Component {
         Pinsk: [52.12290, 26.095510],
         Brest: [52.09755, 23.68775],
         Bereza: [52.53140, 24.97860],
+        Kobrin: [52.21380, 24.35640],
         Luninets: [52.24720, 26.80470],
         Gomel: [52.43450, 30.97540],
         Grodno: [53.68840, 23.82580],
@@ -88,6 +89,12 @@ class App extends Component {
                     <Popup className="popup">
                         <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Coat_of_Arms_of_Biaroza%2C_Belarus.svg/800px-Coat_of_Arms_of_Biaroza%2C_Belarus.svg.png' />
                         Береза<br/> Хоккейный клуб - Береза
+                    </Popup>
+                </Marker>
+                <Marker position={this.state.Kobrin} icon={myIcon}>
+                    <Popup className="popup">
+                        <img src='https://upload.wikimedia.org/wikipedia/commons/6/6f/Coat_of_Arms_of_Kobryn%2C_Belarus.png' />
+                        Кобрин<br/> Хоккейный клуб - Кобрин
                     </Popup>
                 </Marker>
 
